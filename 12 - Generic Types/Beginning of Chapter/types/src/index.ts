@@ -1,7 +1,9 @@
-import { Person, Product } from "./dataTypes";
+import { Person, Product } from "./dataTypes"
 
-let people = [new Person("Bob Smith", "London"), 
-    new Person("Dora Peters", "New York")];
-let products = [new Product("Running Shoes", 100), new Product("Hat", 25)];
+let people = [
+  new Person("Bob Smith", "London"),
+  new Person("Dora Peters", "New York"),
+]
+let products = [new Product("Running Shoes", 100), new Product("Hat", 25)]
 
-[...people, ...products].forEach(item => console.log(`Item: ${item.name}`));
+;[...people, ...products].forEach(item => console.log(`Item: ${item.name}`))

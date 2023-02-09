@@ -1,4 +1,4 @@
-# Errata for *Essential TypeScript 4*
+# Errata for _Essential TypeScript 4_
 
 This file contains errors that are likely to prevent the code examples from working as described in ths book. See [this](typos.md) file for small mistakes that I intend to correct in the next edition.
 
@@ -8,7 +8,7 @@ The example in **Listing 10-22** doesn't produce the expected results because, a
 
 (Thanks to Bersez Nathan - aka GazousGit - for reporting this issue)
 
-***
+---
 
 **Chapter 13**
 
@@ -22,4 +22,4 @@ To resolve this issue update the webpack-cli package using the following command
 
 (Thanks to Roberto Alarcon for reporting this problem)
 
-***
+---
